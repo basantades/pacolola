@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-inner {
+    height: 65vh;
+    min-height: 400px;
+  }
+
+  .carousel-inner img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .carousel-item {
+    height: 100%;
+ 
+  }
+  div.carousel-inner div.carousel-item::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #07193638;
+    content: "";
+}
